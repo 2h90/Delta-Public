@@ -17773,10 +17773,10 @@
                     var s, l, n, a, o, r, h, u, d, O;
                     switch (this.finish) {
                         case "deltaalloy":
-                            s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "#68A"), s.addColorStop(.5, "#b0e3f5"), s.addColorStop(.5, "#698d94"), s.addColorStop(1, "#a1bec9");
+                            s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "#68A"), s.addColorStop(.5, "#FFF"), s.addColorStop(.5, "#765"), s.addColorStop(1, "#CCC");
                             break;
                         case "alloy":
-                            s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "#68A"), s.addColorStop(.5, "#FFF"), s.addColorStop(.5, "#765"), s.addColorStop(1, "#CCC");
+                            s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "#68A"), s.addColorStop(.5, "#b0e3f5"), s.addColorStop(.5, "#698d94"), s.addColorStop(1, "#a1bec9");
                             break;
                         case "titanium":
                             s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(0, "#444"), s.addColorStop(.5, "#AAA"), s.addColorStop(.5, "#444"), s.addColorStop(1, "#111");
@@ -17793,7 +17793,7 @@
                     }
                     if (t.globalCompositeOperation = "source-atop", t.fillStyle = s, "carbon" === this.finish) {
                         for (n = r = 0, O = 4 * h - 1; r <= O; n = r += 1) t.fillStyle = n % 2 == 0 ? s : l, t.fillRect(n * e / (4 * h), 0, e / (4 * h), i);
-                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(.3, "rgba(0,0,0,.5)"), s.addColorStop(.5, "rgba(0,0,0,0)"), s.addColorStop(.7, "rgba(0,0,0,.50)"), t.fillStyle = s, t.fillRect(0, 0, e, i)
+                        s = t.createLinearGradient(0, 0, 0, i), s.addColorStop(.3, "rgba(0,0,0,.5)"), s.addColorStop(.5, "rgba(0,0,0,0)"), s.addColorStop(.7, "rgba(0,0,0,.5)"), t.fillStyle = s, t.fillRect(0, 0, e, i)
                     } else t.fillStyle = s, t.fillRect(0, 0, e, i);
                     return t.globalCompositeOperation = "source-over"
                 }, t.prototype.drawLaser = function(t, e, i) {
